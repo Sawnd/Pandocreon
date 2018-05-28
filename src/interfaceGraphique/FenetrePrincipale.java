@@ -53,7 +53,7 @@ public class FenetrePrincipale extends JFrame implements ActionListener, Observe
 	 * gives the programmer control over which versions of a class are considered incompatible in regard to serialization
 	 */
 	private static final long serialVersionUID = 1L;
-        public static  String imgDirPath="\\images" ;
+        public static  String imgDirPath="src\\images" ;
 /**
  * attribut contennat un JFrame
  */
