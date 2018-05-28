@@ -81,7 +81,7 @@ public class Joueur extends Observable {
 		pointsJour = pointsNeant = pointsNuit = 0;
 		main = new LinkedList<CarteAction>();
 		cartesRecuperees = new LinkedList<GuideSpirituel>();
-	
+
 	}
 
 	/**
@@ -124,7 +124,7 @@ public class Joueur extends Observable {
 	}
 
 	/**
-	 * permet d'ajouter une care e la main du joueur
+	 * permet d'ajouter une carte à la main du joueur
 	 * @param carte carte e ajouter
 	 */
 	public void ajouterCarte(CarteAction carte) {
