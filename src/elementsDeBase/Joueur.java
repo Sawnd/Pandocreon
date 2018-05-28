@@ -452,7 +452,7 @@ public class Joueur extends Observable {
 	}
 
 	/**
-	 * Methode permettant d'afficher les oints du joueur 
+	 * Methode permettant d'afficher les points du joueur
 	 */
 	public void afficherLesPoints() {
 		if (!Partie.getInterfaceGaphiqueActive()) {
@@ -474,7 +474,7 @@ public class Joueur extends Observable {
 			// this.afficherCarte();
 			aPioche = true;
 		} else {
-			MessageBox.getMessageBox().ajouterMessage("Vous avez deje complete votre main!");
+			MessageBox.getMessageBox().ajouterMessage("Vous avez dejà complete votre main!");
 			
 		}
 		if (Partie.getInterfaceGaphiqueActive()) {
@@ -1208,7 +1208,7 @@ public class Joueur extends Observable {
 
 	/**
 	 * 	Methode permettant de recuperer un dogme d'une divinite
-	 * @param indice du dogme e recuperer
+	 * @param i du dogme e recuperer
 	 * @return dogme recupere
 	 */
 	public TypeDogme getDogmeDivinite(int i) {
@@ -1265,7 +1265,7 @@ public class Joueur extends Observable {
 
 	/**
 	 * Methode qui permet de modifier la valeur de l'atttribut aPioche
-	 * @param bool valeur e attribuer e l'attribut
+	 * @param bool valeur à attribuer à l'attribut
 	 */
 	public void setaDejaJoue(boolean bool) {
 		this.aPioche = bool;
